@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom right, #0F2027, #203A43, #2C5364) no-repeat center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.search {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 16px;
+}
+
+.thala h1 {
+    color: #fff;
+    display: none;
+    animation: zoomIn 3s infinite;
+}
+
+@keyframes zoomIn {
+    0% {
+        scale: 1;
+    }
+
+    50% {
+        scale: 1.5;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
