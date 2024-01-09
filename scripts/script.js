@@ -24,14 +24,14 @@ function sumofDigits(num) {
 
 function thalaOrNot(sum) {
     if (sum === 7) {
-        console.log("Thala For A Reason!");
+        alert("Thala For A Reason!");
         var audio = new Audio("images/thalabgm.mp3");
         audio.play();
         setTimeout(() => {
             audio.pause();
         }, 10000);
     } else {
-        console.log("Mera Lund Jiye Aisi Zindagi!");
+        alert("Mera Lund Jiye Aisi Zindagi!");
     }
 }
 
