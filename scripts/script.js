@@ -31,7 +31,7 @@ function thalaOrNot(sum) {
             audio.pause();
         }, 10000);
     } else {
-        console.log("Mera Lund Jiye Aisi Zindagi");
+        console.log("Mera Lund Jiye Aisi Zindagi!");
     }
 }
 
